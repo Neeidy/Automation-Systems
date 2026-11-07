@@ -1,4 +1,4 @@
-<h1 align="center">📥 AI Lead Intake CRM</h1>
+<h1 align="center">📥 Lead Intake CRM</h1>
 
 <p align="center">
   <em>clean leads in, noise out</em>

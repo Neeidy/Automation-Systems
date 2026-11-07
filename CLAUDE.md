@@ -4,7 +4,7 @@
 Public portfolio repo of three backend automation systems by Yigitcan Ük (Vienna). Audience: recruiters and clients. Tone: evidence over hype. This repo is self-contained; do not reference other projects or repositories.
 
 ## Contents
-- n8n/   — AI Lead Intake CRM: n8n + Airtable + Telegram + webhook. Normalize → validate email → dedupe → Leads_clean / Automation_Logs → success/duplicate/missing-email paths → separate error-handler workflow.
+- n8n/   — Lead Intake CRM: n8n + Airtable + Telegram + webhook. Normalize → validate email → dedupe → Leads_clean / Automation_Logs → success/duplicate/missing-email paths → separate error-handler workflow.
 - make/  — Daily Operations Report: reads Airtable Leads_clean + Automation_Logs, aggregates, counts event types, sends a Telegram summary. 09:00 schedule configured but intentionally inactive.
 - zapier/ — Client Onboarding & Follow-up: webhook intake → email normalize/validate → Airtable CRM record → Gmail DRAFT (not auto-send) → Google Calendar follow-up (+2 days) → Telegram alert. Zap disabled after proof. No public export exists, so this folder is README + screenshots + architecture.
 

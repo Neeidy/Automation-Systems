@@ -24,7 +24,7 @@ This repository collects three no-/low-code backend automations built on **n8n**
 
 | Folder | System | Stack | Status |
 |---|---|---|---|
-| [`n8n/`](n8n/) | **AI Lead Intake CRM** | n8n · Airtable · Telegram · webhook | Local/self-hosted · demo data · sanitized export |
+| [`n8n/`](n8n/) | **Lead Intake CRM** | n8n · Airtable · Telegram · webhook | Local/self-hosted · demo data · sanitized export |
 | [`make/`](make/) | **Daily Operations Report** | Make · Airtable · Telegram | Built · 09:00 schedule intentionally inactive · demo data |
 | [`zapier/`](zapier/) | **Client Onboarding & Follow-up** | Zapier · Airtable · Gmail · Calendar · Telegram | Built, then disabled after proof · no machine export |
 
